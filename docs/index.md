@@ -3,7 +3,7 @@ Welcome to the official documentation of **Somayeh Abedian's openEHR Fellowship*
 
 ## 🎯 Project Main Goal
 To develop conceptual models for key **Patient-Generated Health Data (PGHD)** using openEHR’s archetype-based modeling framework, and to:
-- Assess semantic mapping feasibility to **HL7 FHIR** and **OMOP CDM**
+- Assess semantic mapping feasibility to HL7 FHIR and OMOP CDM
 - Identify gaps
 - Propose extensions to existing standards where needed
 

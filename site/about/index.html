@@ -339,6 +339,19 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -350,6 +363,61 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#figure-conceptual-architecture-of-pghd-flow-from-wearables-to-structured-health-data-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Figure: Conceptual architecture of PGHD flow from wearables to structured health data platforms.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-innovation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Project Innovation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Why This Matters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      💬 Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -441,6 +509,50 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#figure-conceptual-architecture-of-pghd-flow-from-wearables-to-structured-health-data-platforms" class="md-nav__link">
+    <span class="md-ellipsis">
+      Figure: Conceptual architecture of PGHD flow from wearables to structured health data platforms.
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-innovation" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧠 Project Innovation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Why This Matters
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      💬 Summary
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -455,11 +567,31 @@
 
 
 
-<h1 id="about-the-project">About the Project</h1>
-<p>Patient-Generated Health Data (PGHD) represents a rapidly growing class of health information that offers unique perspectives on individuals’ health beyond clinical encounters. These data, often collected via wearables and mobile devices, provide rich context for personalized care. Despite their growing clinical and research value, PGHD are rarely structured or standardized in a way that allows for direct integration into Personal Electronic Health Records (EHRs) or clinical decision-making systems.
-<img alt="PGHD Architecture" src="../assets/images/pghd-architecture.png" />
-This project introduces a novel approach to modeling core PGHD concepts using openEHR's dual-model architecture as a foundation. By identifying and analyzing the data blocks and structural units that constitute PGHD (such as activity, sleep, heart rate), the project aims to semantically model them once in openEHR. These models will then be intelligently transformed into FHIR resources and OMOP CDM entities using AI-based semantic mapping techniques.</p>
-<p>This strategy supports a unified, reusable model for PGHD that can bridge the gap between standards and use cases, whether the goal is primary care integration (via openEHR or FHIR standards) or secondary data analysis (via OMOP). Leveraging openEHR’s strong semantic expressiveness and alignment with clinical thinking, this work proposes a scalable pathway for standardizing PGHD and facilitating its joint utilization across ecosystems.</p>
+<h1 id="about-the-project">📘 About the Project</h1>
+<p>Patient-Generated Health Data (PGHD) represents a rapidly growing class of health information that offers unique perspectives on individuals’ health <strong>beyond clinical encounters</strong>. These data, often collected via <strong>wearables</strong> and <strong>mobile devices</strong>, provide rich context for <strong>personalized care</strong>.</p>
+<p>Despite their growing value in clinical and research settings, most PGHD are:
+- Not <strong>semantically structured</strong>
+- Not <strong>standardized</strong>
+- Difficult to integrate into Electronic Health Records (EHRs) or clinical decision systems</p>
+<hr />
+<p><img alt="PGHD Architecture" src="../assets/images/pghd-architecture.png" /></p>
+<h2 id="figure-conceptual-architecture-of-pghd-flow-from-wearables-to-structured-health-data-platforms"><em>Figure: Conceptual architecture of PGHD flow from wearables to structured health data platforms.</em></h2>
+<h2 id="project-innovation">🧠 Project Innovation</h2>
+<p>This project introduces a <strong>novel modeling approach</strong> using openEHR’s dual-model architecture as a foundation.  </p>
+<p>PGHD concepts will be semantically modeled once in openEHR and then  we will evaluate automatically transformed into:
+- 🔁 <strong>FHIR resources</strong>
+- 📊 <strong>OMOP CDM entities</strong>
+Transformation is enabled through AI-assisted semantic mapping techniques.</p>
+<hr />
+<h2 id="why-this-matters">🔗 Why This Matters</h2>
+<p>This strategy enables:
+- ✅ A <strong>unified, reusable model</strong> for PGHD<br />
+- 🔄 Bridging the gap between <strong>primary care standards</strong> (openEHR, FHIR) and <strong>secondary analysis frameworks</strong> (OMOP)<br />
+- 🚀 A scalable and clinically aligned path to structure, share, and use PGHD across the health ecosystem</p>
+<hr />
+<h2 id="summary">💬 Summary</h2>
+<p>Leveraging openEHR’s strong semantic capabilities and alignment with clinical logic, this project proposes a future-ready solution to transform how we capture and use Patient-Generated Health Data.</p>
+<hr />
 
 
 
