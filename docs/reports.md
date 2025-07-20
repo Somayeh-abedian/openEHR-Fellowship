@@ -1,40 +1,41 @@
-# The final report of the deliverable will be published and will include reports on the following:
+## 📘 Final Deliverables Overview
+The final report will be published and include comprehensive documentation of the following outputs:
+---
 
-* A set of new and/or adapted openEHR archetypes and templates
+### 🧠 openEHR Archetypes & Templates
 
-&nbsp;– Focused on core PGHD concepts
+- 📌 Focused on core PGHD concepts  
+- ✏️ Created or refined using Archetype Designer & Template Designer  
+- 📤 Shared via CKM or GitHub with appropriate metadata
+---
 
-&nbsp;– Created or refined using Archetype Designer and Template Designer
+### 🧭 Semantic Mapping Report
 
-&nbsp;– Shared via CKM or GitHub with appropriate metadata
+- 🔗 Comparative analysis of openEHR models with HL7 FHIR and OMOP CDM  
+- 📊 Includes terminology mapping tables and alignment justifications
 
-* A mapping report and comparative analysis
+---
 
-&nbsp;– Documenting semantic alignments and gaps between the developed openEHR models and equivalent representations in FHIR and OMOP
+### 🛠️ Tool Evaluation Summary
 
-&nbsp;– Including terminology mapping tables and alignment justifications
+- 🔍 Review of available openEHR → FHIR / OMOP mapping utilities  
+- 🧾 Recommendations on reuse, limitations, and future potential
+---
 
-* Evaluation summary of existing transformation tools
+### 📑 Technical Report / Research Article
 
-&nbsp;– Review and assessment of available openEHR–FHIR/OMOP mapping resources and utilities
+- 🧬 Outlining the methodology, modeling strategy, and findings  
+- 📚 Suitable for submission to journals or standards conferences
+---
 
-&nbsp;– Recommendations for reuse, limitations, and future integration potential
+### 📚 Educational & Documentation Materials
 
-* A structured technical report or short research article
+- 🎓 Slide decks and guides explaining the modeling & mapping process  
+- 🧩 Designed for those new to PGHD and interoperability efforts
+---
 
-&nbsp;– Outlining the methodology, modelling approach, and key findings
+### 🌐 Contribution to Community Resources
 
-&nbsp;– Suitable for submission to a digital health, standards, or informatics journal or conference
-
-* Educational and documentation materials
-
-&nbsp;– Presentation slides and written guides explaining the modelling and mapping process
-
-&nbsp;– Targeted at newcomers to PGHD modelling and cross-standard interoperability
-
-* Contribution to community resources
-
-&nbsp;– Submission of archetypes to the openEHR CKM for review
-
-&nbsp;– Sharing insights or feedback to relevant working groups (e.g., openEHR Discourse)
+- 📥 Submission of new archetypes to openEHR CKM  
+- 🗣️ Sharing insights with relevant working groups (e.g., openEHR Discourse)
 

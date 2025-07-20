@@ -1,12 +1,13 @@
-# This page covers the following topics:
+## 🗂️ Topics Covered on This Page
 
-* Identification and modelling of key PGHD concepts using openEHR’s dual-model approach
-* Design or reuse of archetypes and templates via CKM and openEHR tools
-* Semantic mapping analysis with FHIR and OMOP standards
-* Evaluation of existing tools and resources for cross-standard alignment
-* Use of lightweight AI methods (e.g., NLP) to support mapping suggestions
-* Documentation and publication of outputs in open repositories
-* Community feedback and engagement with openEHR and interoperability experts
+This section introduces the key components and activities of the project:
+---
 
-
+- 🧩 **Modeling PGHD concepts** using openEHR’s dual-model architecture (archetypes & templates)
+- 🛠️ **Design or reuse** of archetypes via CKM and openEHR toolchain
+- 🔁 **Semantic mapping analysis** to HL7 FHIR and OMOP CDM standards
+- 🔬 **Evaluation of existing tools** and resources for standard alignment and transformation
+- 🤖 **Use of lightweight AI techniques** (e.g., NLP, similarity analysis) to support semantic mapping
+- 📄 **Documentation and publication** of models and results in open repositories (e.g., GitHub, CKM)
+- 🗣️ **Engagement with the community**, including feedback loops with openEHR and interoperability experts
 
