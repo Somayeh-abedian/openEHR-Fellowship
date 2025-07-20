@@ -1,0 +1,33 @@
+site_name: openEHR Fellowship Project – Somayeh Abedian
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/openehr-logo.png
+  favicon: assets/images/openehr-logo.png
+  palette:
+    scheme: default
+    primary: purple
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - content.action.edit
+    - navigation.footer
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Aims and Objectives: aims.md
+  - Documents: documents.md
+  - Reports: reports.md
+
+extra:
+  generator: false
+
+extra_css:
+  - assets/stylesheets/extra.css

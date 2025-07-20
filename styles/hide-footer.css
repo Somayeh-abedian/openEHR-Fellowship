@@ -1,0 +1,4 @@
+/* پنهان کردن فوتر متا که جمله "Made with Material for MkDocs" رو نشون می‌ده */
+.md-footer-meta {
+  display: none !important;
+}
