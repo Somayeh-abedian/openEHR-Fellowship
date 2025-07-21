@@ -1,5 +1,5 @@
 # 🎓 openEHR Fellowship Project
-Welcome to the official documentation of **Somayeh Abedian's openEHR Fellowship**!
+Welcome to the official documentation of **Somayeh Abedian's Fellowship Project**!
 
 ## 🎯 Project Main Goal
 To develop conceptual models for key **Patient-Generated Health Data (PGHD)** using openEHR’s archetype-based modeling framework, and to:
@@ -48,3 +48,9 @@ The outcome is a **reusable, extensible model** of PGHD that:
 - Enhances clinical decision support
 - Enables better secondary use of health data
 - Can be extended to other concepts beyond PGHD in the future
+
+
+
+<a href="javascript:void(0);" onclick="window.open('/assets/podcast-player.html', 'podcastWindow', 'width=300,height=120');">
+🎧 Launch Podcast Player
+</a>
