@@ -53,6 +53,82 @@
     
     
     
+  <style>
+    .podcast-container {
+      position: fixed;
+      top: 198px;
+      left: 75px;
+      z-index: 9999;
+      text-align: center;
+    }
+
+    #podcast-button-top {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: rgba(98, 0, 238, 0.08);
+      border: 2px solid #6200ee;
+      cursor: pointer;
+      padding: 5px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    }
+
+    #podcast-button-top img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      transition: transform 0.2s ease;
+    }
+
+    #podcast-button-top:hover img {
+      transform: scale(1.08);
+    }
+
+    .podcast-duration {
+      margin-top: 8px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .listen-now-button {
+      margin-top: 6px;
+      background-color: #6200ee;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 12px;
+      font-size: 13px;
+      cursor: pointer;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+      transition: background-color 0.2s ease;
+    }
+
+    .listen-now-button:hover {
+      background-color: #4b00c4;
+    }
+
+    @media (max-width: 768px) {
+      .podcast-container {
+        top: 160px;
+        left: 30px;
+      }
+
+      #podcast-button-top {
+        width: 70px;
+        height: 70px;
+      }
+
+      .podcast-duration {
+        font-size: 12px;
+      }
+
+      .listen-now-button {
+        font-size: 12px;
+        padding: 4px 8px;
+      }
+    }
+  </style>
+
   </head>
   
   
@@ -579,12 +655,24 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  <div class="podcast-container">
+    <button id="podcast-button-top" onclick="window.open('./assets/podcast-player.html', 'podcastWindow', 'width=320,height=160');">
+      <img src="./assets/logo.png" alt="Podcast Logo">
+    </button>
+    <div class="podcast-duration">
+      ⏱ Duration: 14 min
+    </div>
+    <button class="listen-now-button" onclick="window.open('./assets/podcast-player.html', 'podcastWindow', 'width=320,height=160');">
+      🎧 Listen Now
+    </button>
+  </div>
+  
                   
 
 
 
 <h1 id="openehr-fellowship-project">🎓 openEHR Fellowship Project</h1>
-<p>Welcome to the official documentation of <strong>Somayeh Abedian's openEHR Fellowship</strong>!</p>
+<p>Welcome to the official documentation of <strong>Somayeh Abedian's Fellowship Project</strong>!</p>
 <h2 id="project-main-goal">🎯 Project Main Goal</h2>
 <p>To develop conceptual models for key <strong>Patient-Generated Health Data (PGHD)</strong> using openEHR’s archetype-based modeling framework, and to:
 - Assess semantic mapping feasibility to HL7 FHIR and OMOP CDM
@@ -624,6 +712,9 @@ The outcome is a <strong>reusable, extensible model</strong> of PGHD that:
 - Enhances clinical decision support
 - Enables better secondary use of health data
 - Can be extended to other concepts beyond PGHD in the future</p>
+<p><a href="javascript:void(0);" onclick="window.open('/assets/podcast-player.html', 'podcastWindow', 'width=300,height=120');">
+🎧 Launch Podcast Player
+</a></p>
 
 
 
@@ -637,6 +728,7 @@ The outcome is a <strong>reusable, extensible model</strong> of PGHD that:
 
 
                 
+
               </article>
             </div>
           

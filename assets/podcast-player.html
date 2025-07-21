@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PGHD Interop Podcast</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 10px;
+      background-color: #1e0033;
+      color: white;
+      font-family: Arial, sans-serif;
+      overflow-y: auto;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      width: 70px;
+      height: 70px;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    audio {
+      width: 250px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-top: 12px;
+      text-align: center;
+      max-width: 90%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Podcast Logo">
+    <audio controls preload="metadata">
+      <source src="podcast.wav" type="audio/wav">
+      Your browser does not support the audio element.
+    </audio>
+    <p>
+      PGHD Interop Podcast<br>
+      Duration: 14 minutes – Hosted by Somayeh Abedian 🎧
+    </p>
+  </div>
+</body>
+</html>
