@@ -1,6 +1,6 @@
 # 🎓 Overall Aim
 
-To develop conceptual models for core **Patient-Generated Health Data (PGHD)** using the **openEHR dual-model architecture**, and to assess the feasibility of semantic transformation into **HL7 FHIR** and **OMOP CDM** — identifying interoperability gaps and proposing necessary standard extensions.
+To develop conceptual models for core **Patient-Generated Health Data (PGHD)** using the openEHR dual-model architecture, and to assess the feasibility of semantic transformation into HL7 FHIR and OMOP CDM — identifying interoperability gaps and proposing necessary standard extensions.
 
 ---
 
@@ -10,7 +10,7 @@ To develop conceptual models for core **Patient-Generated Health Data (PGHD)** u
 
 - 🧩 **Modeling**: Design openEHR **archetypes and templates** for these concepts using Archetype Designer, aligned with international modeling principles.
 
-- 🧬 **Semantic Mapping**: Implement lightweight Python scripts to analyze and **map** openEHR models to existing HL7 FHIR resources and OMOP CDM tables.
+- 🧬 **Semantic Mapping**: Implement lightweight Python scripts to analyze and map openEHR models to existing HL7 FHIR resources and OMOP CDM tables.
 
 - 🧪 **Gap Analysis**: Assess mapping **completeness and accuracy**; identify where FHIR or OMOP structures fall short.
 

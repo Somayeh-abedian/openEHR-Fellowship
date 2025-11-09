@@ -1,108 +1,70 @@
 {% extends "base.html" %}
 
+{# پادکست را در سایدبار چپ (زیر منو) درج کن #}
+{% block site_nav %}
+  {{ super() }}
+  <div class="podcast-mini">
+    <button class="podcast-mini__btn"
+            onclick="window.open('{{ base_url }}/assets/podcast-player.html','podcastWindow','width=320,height=160');">
+      <img src="{{ base_url }}/assets/logo.png" alt="Podcast Logo">
+    </button>
+    <div class="podcast-mini__meta">
+      ⏱ 14 min
+      <button class="podcast-mini__listen"
+              onclick="window.open('{{ base_url }}/assets/podcast-player.html','podcastWindow','width=320,height=160');">
+        🎧 Listen
+      </button>
+    </div>
+  </div>
+{% endblock %}
+
 {% block extrahead %}
   <style>
-    .podcast-container {
-      position: fixed;
-      top: 198px;
-      left: 75px;
-      z-index: 9999;
+    /* پادکست کوچک در سایدبار چپ */
+    .md-sidebar--primary .podcast-mini {
+      margin: .75rem 0 0 0;
+      padding: .6rem .6rem .8rem .6rem;
+      border: 1px solid rgba(98,0,238,.25);
+      border-radius: .75rem;
       text-align: center;
     }
-
-    #podcast-button-top {
-      width: 100px;
-      height: 100px;
+    .podcast-mini__btn {
+      width: 84px; height: 84px;
       border-radius: 50%;
-      background-color: rgba(98, 0, 238, 0.08);
+      background: rgba(98,0,238,.08);
       border: 2px solid #6200ee;
       cursor: pointer;
-      padding: 5px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+      padding: 6px;
+      display: inline-flex; align-items: center; justify-content: center;
     }
-
-    #podcast-button-top img {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      transition: transform 0.2s ease;
+    .podcast-mini__btn img {
+      width: 100%; height: 100%; border-radius: 50%;
+      transition: transform .2s ease;
     }
-
-    #podcast-button-top:hover img {
-      transform: scale(1.08);
-    }
-
-    .podcast-duration {
-      margin-top: 8px;
-      font-size: 13px;
-      color: #555;
-    }
-
-    .listen-now-button {
-      margin-top: 6px;
-      background-color: #6200ee;
-      color: #fff;
-      border: none;
-      padding: 5px 10px;
-      border-radius: 12px;
-      font-size: 13px;
-      cursor: pointer;
-      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-      transition: background-color 0.2s ease;
-    }
-
-    .listen-now-button:hover {
-      background-color: #4b00c4;
-    }
-
-    @media (max-width: 768px) {
-      .podcast-container {
-        top: 160px;
-        left: 30px;
-      }
-
-      #podcast-button-top {
-        width: 70px;
-        height: 70px;
-      }
-
-      .podcast-duration {
-        font-size: 12px;
-      }
-
-      .listen-now-button {
-        font-size: 12px;
-        padding: 4px 8px;
-      }
+    .podcast-mini__btn:hover img { transform: scale(1.06); }
+    .podcast-mini__meta { margin-top: .4rem; font-size: .85rem; color: #555; }
+    .podcast-mini__listen {
+      margin-left: .5rem;
+      background: #6200ee; color: #fff; border: 0;
+      padding: .25rem .55rem; border-radius: .6rem; cursor: pointer;
     }
   </style>
 {% endblock %}
 
-{% block content %}
-  <div class="podcast-container">
-    <button id="podcast-button-top" onclick="window.open('{{ base_url }}/assets/podcast-player.html', 'podcastWindow', 'width=320,height=160');">
-      <img src="{{ base_url }}/assets/logo.png" alt="Podcast Logo">
-    </button>
-    <div class="podcast-duration">
-      ⏱ Duration: 14 min
-    </div>
-    <button class="listen-now-button" onclick="window.open('{{ base_url }}/assets/podcast-player.html', 'podcastWindow', 'width=320,height=160');">
-      🎧 Listen Now
-    </button>
-  </div>
-  {{ super() }}
-{% endblock %}
+{# محتوا را دست نمی‌زنیم #}
+{% block content %} {{ super() }} {% endblock %}
 
+{# فوتر سعدی برگردد #}
 {% block footer %}
   {{ super() }}
-  <div style="text-align: center; margin-top: 1.5rem;">
+  <div style="text-align:center; margin-top: 1.5rem;">
     <img src="{{ base_url }}/assets/images/footer-logo.png" alt="Footer Logo" style="height: 60px;">
-    <p style="font-size: 0.8rem; color: #888; margin-top: 0.5rem; font-style: italic; line-height: 1.6;">
+    <p style="font-size: .8rem; color: #888; margin-top: .5rem; font-style: italic; line-height: 1.6;">
       “Human beings are members of a whole, in creation of one essence and soul.”<br>
       “If one member is afflicted with pain, other members uneasy will remain.”<br>
-      — Saadi Shirazi (c. 1210–1291 CE), Persian poet of the 13th century
+      — Saadi Shirazi (c. 1210–1291 CE)
     </p>
-    <p style="font-size: 0.75rem; color: #aaa;">
+    <p style="font-size: .75rem; color: #aaa;">
       © 2025 openEHR Fellowship – Designed by Somayeh Abedian
     </p>
   </div>

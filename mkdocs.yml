@@ -2,7 +2,7 @@ site_name: openEHR Fellowship Project – Somayeh Abedian
 
 theme:
   name: material
-  custom_dir: overrides
+  custom_dir: overrides          # اگر پوشه overrides ندارید این خط را حذف کنید
   logo: assets/images/openehr-logo.png
   favicon: assets/images/openehr-logo.png
   palette:
@@ -13,7 +13,8 @@ theme:
     text: Roboto
     code: Roboto Mono
   features:
-    - navigation.tabs
+    # - navigation.tabs
+    - navigation.expand
     - navigation.top
     - content.code.copy
     - content.action.edit
@@ -23,6 +24,11 @@ nav:
   - Home: index.md
   - About: about.md
   - Aims and Objectives: aims.md
+  - Reflective Journals:
+      - Reflective Journal 1: reflective-journal-1.md
+      - Reflective Journal 2: reflective-journal-2.md
+      # - Reflective Journal 3: reflective-journal-3.md
+      # - Reflective Journal 4: reflective-journal-4.md
   - Documents: documents.md
   - Reports: reports.md
 

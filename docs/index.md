@@ -51,6 +51,3 @@ The outcome is a **reusable, extensible model** of PGHD that:
 
 
 
-<a href="javascript:void(0);" onclick="window.open('/assets/podcast-player.html', 'podcastWindow', 'width=300,height=120');">
-🎧 Launch Podcast Player
-</a>
