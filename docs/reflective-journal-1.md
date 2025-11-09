@@ -1,4 +1,4 @@
-# Reflective Journal 1
+# Reflective Journal No. 1 — Learning to Hear the Data
 
 ## The Beginning — Before the Fellowship
 
