@@ -1,3 +1,30 @@
-.md-footer-meta {
-    display: none !important;
+/* فقط منوی چپ بزرگ‌تر و بولد */
+.md-sidebar--primary .md-nav__link {
+  font-weight: 600;
+  font-size: 0.98rem;
 }
+
+/* منوی راست (TOC) معمولی */
+.md-sidebar--secondary .md-nav__link {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+/* فقط عنوان بالای منوی چپ (نام سایت/لوگو در سایدبار) را بردار */
+.md-sidebar--primary .md-nav__title {
+  display: none;
+}
+
+/* عنوان TOC در سایدبار راست را نگه‌دار */
+.md-sidebar--secondary .md-nav__title {
+  display: flex;
+  align-items: center;
+}
+
+/* فوتر را پنهان نکن (اگر قبلاً مخفی کرده بودی، آن قانون را حذف کن) */
+/* نمایش فوتر و بخش شعر سعدی */
+.md-footer,
+.md-footer-meta {
+  display: block !important;
+}
+
