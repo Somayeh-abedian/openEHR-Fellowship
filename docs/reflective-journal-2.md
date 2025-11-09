@@ -64,7 +64,7 @@ The decision to begin with the selected variables was *intentional*:
 - They can inform how someone is doing over time  
 - They can be mapped and represented consistently at this stage  
 
-Other elements will be added **gradually**, with **supervisor input** and **clinical interpretation support**, as the modeling process continues.
+With the guidance of dear Rachel and the esteemed faculty, as well as the valuable support of the Senior Fellows and the clinical team, additional components will be incorporated gradually as the modeling process progresses. This is not omission ... it is a deliberate and phased approach
 
 This is not *omission* — it is **phasing**.
 
